@@ -1,20 +1,56 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# CareerPilotAI
 
-# Run and deploy your AI Studio app
+CareerPilotAI is a personal career development platform designed to help students and aspiring software engineers prepare for internships and full-time opportunities.
 
-This contains everything you need to run your app locally.
+The platform combines AI-powered tools into a single workspace where users can evaluate their resumes, analyze GitHub profiles, practice interview questions, and track their overall career readiness.
 
-View your app in AI Studio: https://ai.studio/apps/d077e778-3251-42c3-97b2-3d597117f9e6
+## Why I Built This
 
-## Run Locally
+Many students struggle to understand whether they are truly ready for internships or job applications. CareerPilotAI was created to provide practical feedback, personalized guidance, and actionable insights that help users improve their profiles and skills.
 
-**Prerequisites:**  Node.js
+## Features
 
+### Resume Analysis
+- Upload and analyze resumes
+- Identify strengths and improvement areas
+- Receive personalized recommendations
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### GitHub Profile Review
+- Evaluate repository quality
+- Analyze coding activity and project diversity
+- Generate portfolio improvement suggestions
+
+### Mock Interview Practice
+- Practice technical and behavioral questions
+- Receive AI-generated feedback
+- Improve communication and problem-solving skills
+
+### Career Readiness Dashboard
+- Track overall progress
+- View performance metrics
+- Monitor improvement over time
+
+## Technology Stack
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Gemini AI
+- PostgreSQL
+
+## Future Enhancements
+
+- LinkedIn profile analysis
+- Personalized learning roadmaps
+- Internship recommendation system
+- Community challenges and leaderboards
+- Real-time interview simulations
+
+## Getting Started
+
+```bash
+git clone https://github.com/yourusername/CareerPilotAI.git
+cd CareerPilotAI
+npm install
+npm run dev
