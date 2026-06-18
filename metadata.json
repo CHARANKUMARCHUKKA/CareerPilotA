@@ -1,0 +1,6 @@
+{
+  "name": "CareerPilot AI",
+  "description": "Your AI Career Mentor — Analyze resumes, identify skill gaps, generate career roadmaps, prepare for interviews, and accelerate your career with AI.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
